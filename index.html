@@ -1,0 +1,1624 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario Completo Partite Mundialito 2024</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .header-title {
+            margin: 0;
+            font-size: 2em;
+        }
+        
+        .match-container {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin: 30px auto;
+            padding: 25px;
+            max-width: 900px;
+            page-break-after: always;
+        }
+        
+        .match-header {
+            text-align: center;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #eaeaea;
+        }
+        
+        .match-title {
+            font-size: 1.6em;
+            color: #2c3e50;
+            margin: 0;
+            font-weight: 600;
+        }
+        
+        .match-date {
+            font-style: italic;
+            color: #7f8c8d;
+            margin: 8px 0;
+            font-size: 1.1em;
+        }
+        
+        .match-status {
+            display: inline-block;
+            padding: 3px 10px;
+            background-color: #e74c3c;
+            color: white;
+            border-radius: 4px;
+            font-size: 0.9em;
+            margin-left: 10px;
+        }
+        
+        .teams-container {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 25px;
+        }
+        
+        .team {
+            width: 48%;
+            background-color: #f8f9fa;
+            border-radius: 6px;
+            padding: 10px;
+        }
+        
+        .team-name {
+            font-weight: bold;
+            font-size: 1.3em;
+            color: #2980b9;
+            margin-bottom: 15px;
+            text-align: center;
+            padding: 8px;
+            background-color: #eaf2f8;
+            border-radius: 4px;
+        }
+        
+        .players-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            columns: 1;
+            column-gap: 20px;
+        }
+        
+        .player {
+            padding: 6px 0;
+            border-bottom: 1px dotted #eee;
+            display: flex;
+            font-size: 0.95em;
+            break-inside: avoid;
+        }
+        
+        .player-number {
+            font-weight: bold;
+            margin-right: 10px;
+            min-width: 25px;
+            color: #7f8c8d;
+        }
+        
+        .section-title {
+            font-weight: bold;
+            margin-top: 20px;
+            color: #2c3e50;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 8px;
+            font-size: 1.2em;
+        }
+        
+        .stats-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+        }
+        
+        .stats-column {
+            width: 48%;
+        }
+        
+        .stat-item {
+            padding: 5px 0;
+            display: flex;
+            align-items: center;
+        }
+        
+        .stat-value {
+            margin-left: 10px;
+            font-weight: 500;
+        }
+        
+        .empty-stat {
+            color: #95a5a6;
+            font-style: italic;
+        }
+        
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        .footer-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .footer-logo {
+            max-width: 190px;
+            margin-bottom: 5px;
+        }
+        
+      .footer-copyright {
+            margin: 10px 0;
+        }
+        
+        .footer-social {
+            margin-top: 10px;
+        }
+        
+        .footer-social a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-flex;
+            align-items: center; /* Allineamento verticale al centro */
+            gap: 8px;
+            transition: color 0.3s;
+            line-height: 1; /* Assicura che non ci sia spazio extra */
+        }
+        
+        .instagram-icon {
+            font-size: 1.2em;
+            vertical-align: middle; /* Allineamento verticale aggiuntivo */
+            margin-top: 2px; /* Piccolo aggiustamento per perfezionare l'allineamento */
+        }
+        
+        @media print {
+            body {
+                background-color: white;
+                padding: 0;
+            }
+            
+            header, footer {
+                display: none;
+            }
+            
+            .match-container {
+                box-shadow: none;
+                border: 1px solid #ddd;
+                margin: 15px 0;
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+<img src="mundialitoleague_logo.png" alt="Mundialito League Logo" class="footer-logo">
+    <h1 class="header-title">CALENDARIO COMPLETO PARTITE MUNDIALITO 2024</h1>
+</header>
+
+<!-- Partita 1 -->
+<div class="match-container">
+    <div class="match-header">
+        <div class="match-date">Lunedì 01/07/2024 - Ore 20.30</div>
+        <h2 class="match-title">ALMA vs SAPOVILLAINS <br><strong class="match_result">1 : 2</strong></h2>
+    </div>
+    
+    <div class="teams-container">
+        <div class="team">
+            <div class="team-name">ALMA</div>
+            <ul class="players-list">
+                <li class="player"><span class="player-number">1</span> UBERTI NICOLÒ</li>
+                <li class="player"><span class="player-number">2</span> BIASIOLO ANDREA</li>
+                <li class="player"><span class="player-number">3</span> BATTAN FEDERICO</li>
+                <li class="player"><span class="player-number">4</span> NICOLAU CRISTIAN</li>
+                <li class="player"><span class="player-number">5</span> TOMASIN NICOLÒ</li>
+                <li class="player"><span class="player-number">6</span> LEVANTESI FABIO</li>
+                <li class="player"><span class="player-number">7</span> BUSO ANDREA</li>
+                <li class="player"><span class="player-number">8</span> CAPPELLATO GIACOMO</li>
+                <li class="player"><span class="player-number">9</span> QUKU ROBERTO</li>
+                <li class="player"><span class="player-number">10</span> VOLPATO REJ</li>
+                <li class="player"><span class="player-number">11</span> PANIZZOLO FEDERICO</li>
+                <li class="player"><span class="player-number">13</span> GIACOMAZZO MATTEO</li>
+                <li class="player"><span class="player-number">15</span> RAI BOUBKER</li>
+                <li class="player"><span class="player-number">17</span> MANFRIN MATTIA</li>
+                <li class="player"><span class="player-number">90</span> MARTIRE WALTER</li>
+            </ul>
+        </div>
+        
+        <div class="team">
+            <div class="team-name">SAPOVILLAINS</div>
+            <ul class="players-list">
+                <li class="player"><span class="player-number">1</span> RUVOLETTO ANDREA</li>
+                <li class="player"><span class="player-number">2</span> MARTELLATO CARLO</li>
+                <li class="player"><span class="player-number">3</span> ZANNI ALESSANDRO</li>
+                <li class="player"><span class="player-number">4</span> DUGO ALBERTO</li>
+                <li class="player"><span class="player-number">5</span> BOSCARO TOMMASO</li>
+                <li class="player"><span class="player-number">6</span> STEFANI LORENZO</li>
+                <li class="player"><span class="player-number">7</span> DONA' ALBERTO</li>
+                <li class="player"><span class="player-number">8</span> BAZZOLO FRANCESCO</li>
+                <li class="player"><span class="player-number">10</span> ZAMBON GIOVANNI</li>
+                <li class="player"><span class="player-number">11</span> CAPELLARI MARCO</li>
+                <li class="player"><span class="player-number">13</span> CHIOCCA ANDREA</li>
+                <li class="player"><span class="player-number">21</span> CONTIN RICCARDO</li>
+                <li class="player"><span class="player-number">23</span> ANTONELLO ELIA</li>
+                <li class="player"><span class="player-number">27</span> ZATTA ALESSANDRO</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="section-title">MARCATORI</div>
+    <div class="stats-container">
+        <div class="stats-column">
+            <div class="stat-item">
+                <span class="stat-value">9 QUKU ROBERTO</span>
+            </div>
+        </div>
+        <div class="stats-column">
+            <div class="stat-item">
+                <span class="stat-value">7 DONA' ALBERTO</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value">5 BOSCARO TOMMASO</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="section-title">AMMONIZIONI</div>
+    <div class="stats-container">
+        <div class="stats-column">
+            <div class="stat-item">
+                <span class="stat-value">9 QUKU ROBERTO</span>
+            </div>
+        </div>
+        <div class="stats-column">
+            <div class="stat-item">
+                <span class="stat-value">8 BAZZOLO FRANCESCO</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="section-title">ESPULSIONI</div>
+    <div class="stats-container">
+        <div class="stats-column">
+            <div class="stat-item empty-stat">Nessuna espulsione</div>
+        </div>
+        <div class="stats-column">
+            <div class="stat-item empty-stat">Nessuna espulsione</div>
+        </div>
+    </div>
+</div>
+
+<!-- Partita 2 -->
+<div class="match-container">
+    <div class="match-header">
+        <div class="match-date">Lunedì 01/07/2024 - Ore 21.45 <span class="match-status">RINVIATA</span></div>
+        <h2 class="match-title">WPJ vs I POLIPI <br><strong class="match_result">4 : 3</strong></h2>
+    </div>
+    
+    <div class="teams-container">
+        <div class="team">
+            <div class="team-name">WPJ</div>
+            <ul class="players-list">
+                <li class="player"><span class="player-number">2</span> CHIARELLO FILIPPO</li>
+                <li class="player"><span class="player-number">4</span> SANTI CIRO</li>
+                <li class="player"><span class="player-number">5</span> MICHIELOTTO FILIPPO</li>
+                <li class="player"><span class="player-number">6</span> FE' LEONARDO</li>
+                <li class="player"><span class="player-number">7</span> PITTARO FRANCESCO</li>
+                <li class="player"><span class="player-number">8</span> MARTINI FEDERICO</li>
+                <li class="player"><span class="player-number">9</span> TOSO FILIPPO</li>
+                <li class="player"><span class="player-number">10</span> SANTI JOSE'</li>
+                <li class="player"><span class="player-number">11</span> MESCALCHIN GIANLUCA</li>
+                <li class="player"><span class="player-number">13</span> BALAS SEBASTIAN</li>
+                <li class="player"><span class="player-number">14</span> ZAMBON DANIEL</li>
+                <li class="player"><span class="player-number">16</span> STIVANELLO MARCO</li>
+                <li class="player"><span class="player-number">17</span> GUZZO FRANCESCO</li>
+            </ul>
+        </div>
+        
+        <div class="team">
+            <div class="team-name">I POLIPI</div>
+            <ul class="players-list">
+                <li class="player"><span class="player-number">1</span> BENETAZZO MARCO</li>
+                <li class="player"><span class="player-number">2</span> AZZOLIN DEVIS</li>
+                <li class="player"><span class="player-number">3</span> TONIATTI LUCA</li>
+                <li class="player"><span class="player-number">4</span> GRIGOLO OMAR</li>
+                <li class="player"><span class="player-number">5</span> MARIN GIANLUCA</li>
+                <li class="player"><span class="player-number">6</span> PANIZZOLO LUCA</li>
+                <li class="player"><span class="player-number">7</span> BALLOTTA SIMONE</li>
+                <li class="player"><span class="player-number">8</span> MANIERO DANIELE</li>
+                <li class="player"><span class="player-number">9</span> CASOTTO GIOVANNI</li>
+                <li class="player"><span class="player-number">10</span> SANAVIA GIACOMO</li>
+                <li class="player"><span class="player-number">11</span> SAVOLDO NICOLO'</li>
+                <li class="player"><span class="player-number">12</span> PEZZOLO LUIGI</li>
+                <li class="player"><span class="player-number">13</span> MICHELON LUCA</li>
+                <li class="player"><span class="player-number">14</span> TONELLO RICCARDO</li>
+                <li class="player"><span class="player-number">15</span> ZOPPELLO LUCA</li>
+                <li class="player"><span class="player-number">-</span> DONOLATO GIANMARIA</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="section-title">MARCATORI</div>
+    <div class="stats-container">
+        <div class="stats-column">
+            <div class="stat-item">
+                <span class="stat-value">6 FE' LEONARDO</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value">4 SANTI CIRO</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value">13 BALAS SEBASTIAN</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value">4 SANTI CIRO</span>
+            </div>
+        </div>
+        <div class="stats-column">
+            <div class="stat-item">
+                <span class="stat-value">14 TONELLO RICCARDO</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value">2 AZZOLIN DEVIS</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value">14 TONELLO RICCARDO</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="section-title">AMMONIZIONI</div>
+    <div class="stats-container">
+        <div class="stats-column">
+            <div class="stat-item empty-stat">Nessuna ammonizione</div>
+        </div>
+        <div class="stats-column">
+            <div class="stat-item empty-stat">Nessuna ammonizione</div>
+        </div>
+    </div>
+    
+    <div class="section-title">ESPULSIONI</div>
+    <div class="stats-container">
+        <div class="stats-column">
+            <div class="stat-item empty-stat">Nessuna espulsione</div>
+        </div>
+        <div class="stats-column">
+            <div class="stat-item empty-stat">Nessuna espulsione</div>
+        </div>
+    </div>
+</div>
+
+<!-- Partita 3 -->
+<div class="match-container">
+    <div class="match-header">
+        <div class="match-date">Mercoledì 03/07/2024 - Ore 20.30</div>
+        <h2 class="match-title">CLUB ATLETICO TUCUMÀN vs FC A.P. <br><strong class="match_result">0 : 1</strong></h2>
+    </div>
+    
+    <div class="teams-container">
+        <div class="team">
+            <div class="team-name">CLUB ATLETICO TUCUMÀN</div>
+            <ul class="players-list">
+                <li class="player"><span class="player-number">1</span> CHINELLO DANIELE</li>
+                <li class="player"><span class="player-number">5</span> MASIERO ALESSANDRO</li>
+                <li class="player"><span class="player-number">6</span> FASOLATO GIANLUCA</li>
+                <li class="player"><span class="player-number">7</span> VOLTAN JACOPO</li>
+                <li class="player"><span class="player-number">9</span> TAMIAZZO DAVIDE</li>
+                <li class="player"><span class="player-number">10</span> TAMIAZZO JAROD MICHEL</li>
+                <li class="player"><span class="player-number">13</span> ALBIERO ANDREA</li>
+                <li class="player"><span class="player-number">20</span> PANIZZOLO MATTEO</li>
+                <li class="player"><span class="player-number">21</span> ZAMBERLAN DANIELE</li>
+                <li class="player"><span class="player-number">22</span> MUNARI ALESSANDRO</li>
+                <li class="player"><span class="player-number">23</span> GHIRALDO DIEGO</li>
+                <li class="player"><span class="player-number">99</span> CARELLI ANTONIO</li>
+                <li class="player"><span class="player-number">0</span> CHINELLO SAMUELE</li>
+            </ul>
+        </div>
+        
+        <div class="team">
+            <div class="team-name">FC A.P.</div>
+            <ul class="players-list">
+                <li class="player"><span class="player-number">4</span> DI BARTOLOMEO TOMMASO</li>
+                <li class="player"><span class="player-number">5</span> DE ROSSI MATTIA</li>
+                <li class="player"><span class="player-number">6</span> ROSSI CHRISTIAN</li>
+                <li class="player"><span class="player-number">7</span> PELLEGRINO MATTIA</li>
+                <li class="player"><span class="player-number">10</span> BOLDRIN MATTEO</li>
+                <li class="player"><span class="player-number">15</span> BELLO ALESSANDRO</li>
+                <li class="player"><span class="player-number">19</span> HAMZA SERGIU</li>
+                <li class="player"><span class="player-number">23</span> FIORIN MATTEO</li>
+                <li class="player"><span class="player-number">50</span> NARDO NICOLA</li>
+                <li class="player"><span class="player-number">69</span> BALIELLO THOMAS</li>
+                <li class="player"><span class="player-number">77</span> PACCAGNELLA LUCA</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="section-title">MARCATORI</div>
+    <div class="stats-container">
+        <div class="stats-column">
+            <div class="stat-item empty-stat">Nessun marcatore</div>
+        </div>
+        <div class="stats-column">
+            <div class="stat-item">
+                <span class="stat-value">6 ROSSI CHRISTIAN</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="section-title">AMMONIZIONI</div>
+    <div class="stats-container">
+        <div class="stats-column">
+            <div class="stat-item">
+                <span class="stat-value">20 PANIZZOLO MATTEO</span>
+            </div>
+        </div>
+        <div class="stats-column">
+            <div class="stat-item empty-stat">Nessuna ammonizione</div>
+        </div>
+    </div>
+    
+    <div class="section-title">ESPULSIONI</div>
+    <div class="stats-container">
+        <div class="stats-column">
+            <div class="stat-item empty-stat">Nessuna espulsione</div>
+        </div>
+        <div class="stats-column">
+            <div class="stat-item empty-stat">Nessuna espulsione</div>
+        </div>
+    </div>
+</div>
+
+<!-- Partita 4 -->
+<div class="match-container">
+    <div class="match-header">
+        <div class="match-date">Mercoledì 03/07/2024 - Ore 21.45</div>
+        <h2 class="match-title">STORTENHAM vs I PERDONÀTI <br><strong class="match_result">2 : 3</strong></h2>
+    </div>
+    
+    <div class="teams-container">
+        <div class="team">
+            <div class="team-name">STORTENHAM</div>
+            <ul class="players-list">
+                <li class="player"><span class="player-number">1</span> LANDO MATTEO</li>
+                <li class="player"><span class="player-number">2</span> SEMENZATO IACOPO</li>
+                <li class="player"><span class="player-number">4</span> CAVALLIN MATTIA</li>
+                <li class="player"><span class="player-number">6</span> LA MATTINA CHRISTIAN</li>
+                <li class="player"><span class="player-number">7</span> GHIRALDO FILIPPO</li>
+                <li class="player"><span class="player-number">8</span> CACCO FILIPPO</li>
+                <li class="player"><span class="player-number">9</span> BACCO MATTEO</li>
+                <li class="player"><span class="player-number">10</span> TRABUIO MARCO</li>
+                <li class="player"><span class="player-number">11</span> BOSCHETTO ENRICO</li>
+                <li class="player"><span class="player-number">13</span> SMAGGIATO SIMONE</li>
+                <li class="player"><span class="player-number">14</span> CONVENTO NICOLA</li>
+                <li class="player"><span class="player-number">17</span> TESTA MARCO</li>
+            </ul>
+        </div>
+        
+        <div class="team">
+            <div class="team-name">I PERDONÀTI</div>
+            <ul class="players-list">
+                <li class="player"><span class="player-number">1</span> MANCIN LORENZO</li>
+                <li class="player"><span class="player-number">2</span> DEGAN GIORGIO</li>
+                <li class="player"><span class="player-number">3</span> POLATO KEVIN</li>
+                <li class="player"><span class="player-number">4</span> VOLPATO RICCARDO</li>
+                <li class="player"><span class="player-number">5</span> TOIGO NICOLA</li>
+                <li class="player"><span class="player-number">6</span> GREGGIO CRISTIAN</li>
+                <li class="player"><span class="player-number">7</span> CALABRESI ALESSANDRO</li>
+                <li class="player"><span class="player-number">8</span> TRABUIO NICOLA</li>
+                <li class="player"><span class="player-number">9</span> BRUSCAGLIN MATTEO</li>
+                <li class="player"><span class="player-number">10</span> KIFOUCHE YACOUB</li>
+                <li class="player"><span class="player-number">11</span> CAZZARO NICCOLO'</li>
+                <li class="player"><span class="player-number">13</span> FRISON NICOLA</li>
+                <li class="player"><span class="player-number">17</span> BARATO LORENZO</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="section-title">MARCATORI</div>
+    <div class="stats-container">
+        <div class="stats-column">
+            <div class="stat-item">
+                <span class="stat-value">13 SMAGGIATO SIMONE</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value">9 BACCO MATTEO</span>
+            </div>
+        </div>
+        <div class="stats-column">
+            <div class="stat-item">
+                <span class="stat-value">8 TRABUIO NICOLA</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value">8 TRABUIO NICOLA</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value">4 VOLPATO RICCARDO</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="section-title">AMMONIZIONI</div>
+    <div class="stats-container">
+        <div class="stats-column">
+            <div class="stat-item">
+                <span class="stat-value">10 TRABUIO MARCO</span>
+            </div>
+        </div>
+        <div class="stats-column">
+            <div class="stat-item empty-stat">Nessuna ammonizione</div>
+        </div>
+    </div>
+    
+    <div class="section-title">ESPULSIONI</div>
+    <div class="stats-container">
+        <div class="stats-column">
+            <div class="stat-item empty-stat">Nessuna espulsione</div>
+        </div>
+        <div class="stats-column">
+            <div class="stat-item empty-stat">Nessuna espulsione</div>
+        </div>
+    </div>
+</div>
+
+<!-- Partita 5 -->
+<div class="match-container">
+    <div class="match-header">
+        <div class="match-date">Venerdì 05/07/2024 - Ore 20.30</div>
+        <h2 class="match-title">ALMA vs I PERDONÀTI <br><strong class="match_result">2 : 4</strong></h2>
+    </div>
+    
+    <div class="teams-container">
+        <div class="team">
+            <div class="team-name">ALMA</div>
+            <ul class="players-list">
+                <li class="player"><span class="player-number">1</span> UBERTI NICOLÒ</li>
+                <li class="player"><span class="player-number">2</span> BIASIOLO ANDREA</li>
+                <li class="player"><span class="player-number">3</span> BATTAN FEDERICO</li>
+                <li class="player"><span class="player-number">4</span> NICOLAU CRISTIAN</li>
+                <li class="player"><span class="player-number">5</span> TOMASIN NICOLÒ</li>
+                <li class="player"><span class="player-number">6</span> LEVANTESI FABIO</li>
+                <li class="player"><span class="player-number">7</span> BUSO ANDREA</li>
+                <li class="player"><span class="player-number">8</span> CAPPELLATO GIACOMO</li>
+                <li class="player"><span class="player-number">9</span> QUKU ROBERTO</li>
+                <li class="player"><span class="player-number">10</span> VOLPATO REJ</li>
+                <li class="player"><span class="player-number">11</span> PANIZZOLO FEDERICO</li>
+                <li class="player"><span class="player-number">13</span> GIACOMAZZO MATTEO</li>
+                <li class="player"><span class="player-number">15</span> RAI BOUBKER</li>
+                <li class="player"><span class="player-number">17</span> MANFRIN MATTIA</li>
+                <li class="player"><span class="player-number">90</span> MARTIRE WALTER</li>
+            </ul>
+        </div>
+        
+        <div class="team">
+            <div class="team-name">I PERDONÀTI</div>
+            <ul class="players-list">
+                <li class="player"><span class="player-number">1</span> MANCIN LORENZO</li>
+                <li class="player"><span class="player-number">2</span> DEGAN GIORGIO</li>
+                <li class="player"><span class="player-number">3</span> POLATO KEVIN</li>
+                <li class="player"><span class="player-number">4</span> VOLPATO RICCARDO</li>
+                <li class="player"><span class="player-number">5</span> TOIGO NICOLA</li>
+                <li class="player"><span class="player-number">6</span> GREGGIO CRISTIAN</li>
+                <li class="player"><span class="player-number">7</span> CALABRESI ALESSANDRO</li>
+                <li class="player"><span class="player-number">8</span> TRABUIO NICOLA</li>
+                <li class="player"><span class="player-number">9</span> BRUSCAGLIN MATTEO</li>
+                <li class="player"><span class="player-number">10</span> KIFOUCHE YACOUB</li>
+                <li class="player"><span class="player-number">11</span> CAZZARO NICCOLO'</li>
+                <li class="player"><span class="player-number">13</span> FRISON NICOLA</li>
+                <li class="player"><span class="player-number">17</span> BARATO LORENZO</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="section-title">MARCATORI</div>
+    <div class="stats-container">
+        <div class="stats-column">
+            <div class="stat-item">
+                <span class="stat-value">9 QUKU ROBERTO</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value">2 BIASOLO ANDREA</span>
+            </div>
+        </div>
+        <div class="stats-column">
+            <div class="stat-item">
+                <span class="stat-value">9 BRUSCAGLIN MATTEO</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value">3 POLATO KEVIN</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value">3 POLATO KEVIN</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value">2 DEGAN GIORGIO</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="section-title">AMMONIZIONI</div>
+    <div class="stats-container">
+        <div class="stats-column">
+            <div class="stat-item empty-stat">Nessuna ammonizione</div>
+        </div>
+        <div class="stats-column">
+            <div class="stat-item empty-stat">Nessuna ammonizione</div>
+        </div>
+    </div>
+    
+    <div class="section-title">ESPULSIONI</div>
+    <div class="stats-container">
+        <div class="stats-column">
+            <div class="stat-item empty-stat">Nessuna espulsione</div>
+        </div>
+        <div class="stats-column">
+            <div class="stat-item empty-stat">Nessuna espulsione</div>
+        </div>
+    </div>
+</div>
+
+<!-- Partita 6 -->
+<div class="match-container">
+    <div class="match-header">
+        <div class="match-date">Venerdì 05/07/2024 - Ore 21.45</div>
+        <h2 class="match-title">FC A.P. vs WPJ <br><strong class="match_result">0 : 0</strong></h2>
+    </div>
+    
+    <div class="teams-container">
+        <div class="team">
+            <div class="team-name">FC A.P.</div>
+            <ul class="players-list">
+                <li class="player"><span class="player-number">4</span> DI BARTOLOMEO TOMMASO</li>
+                <li class="player"><span class="player-number">5</span> DE ROSSI MATTIA</li>
+                <li class="player"><span class="player-number">6</span> ROSSI CHRISTIAN</li>
+                <li class="player"><span class="player-number">7</span> PELLEGRINO MATTIA</li>
+                <li class="player"><span class="player-number">10</span> BOLDRIN MATTEO</li>
+                <li class="player"><span class="player-number">15</span> BELLO ALESSANDRO</li>
+                <li class="player"><span class="player-number">19</span> HAMZA SERGIU</li>
+                <li class="player"><span class="player-number">23</span> FIORIN MATTEO</li>
+                <li class="player"><span class="player-number">50</span> NARDO NICOLA</li>
+                <li class="player"><span class="player-number">69</span> BALIELLO THOMAS</li>
+                <li class="player"><span class="player-number">77</span> PACCAGNELLA LUCA</li>
+                <li class="player"><span class="player-number">16</span> STIVANELLO MARCO</li>
+                <li class="player"><span class="player-number">17</span> GUZZO FRANCESCO</li>
+            </ul>
+        </div>
+        
+        <div class="team">
+            <div class="team-name">WPJ</div>
+            <ul class="players-list">
+                <li class="player"><span class="player-number">2</span> CHIARELLO FILIPPO</li>
+                <li class="player"><span class="player-number">4</span> SANTI CIRO</li>
+                <li class="player"><span class="player-number">5</span> MICHIELOTTO FILIPPO</li>
+                <li class="player"><span class="player-number">6</span> FE' LEONARDO</li>
+                <li class="player"><span class="player-number">7</span> PITTARO FRANCESCO</li>
+                <li class="player"><span class="player-number">8</span> MARTINI FEDERICO</li>
+                <li class="player"><span class="player-number">9</span> TOSO FILIPPO</li>
+                <li class="player"><span class="player-number">10</span> SANTI JOSÈ</li>
+                <li class="player"><span class="player-number">11</span> MESCALCHIN GIANLUCA</li>
+                <li class="player"><span class="player-number">13</span> BALAS SEBASTIAN</li>
+                <li class="player"><span class="player-number">14</span> ZAMBON DANIEL</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="section-title">MARCATORI</div>
+    <div class="stats-container">
+        <div class="stats-column">
+            <div class="stat-item empty-stat">Nessun marcatore</div>
+        </div>
+        <div class="stats-column">
+            <div class="stat-item empty-stat">Nessun marcatore</div>
+        </div>
+    </div>
+    
+    <div class="section-title">AMMONIZIONI</div>
+    <div class="stats-container">
+        <div class="stats-column">
+            <div class="stat-item">
+                <span class="stat-value">10 BOLDRIN MATTEO</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value">69 BALIELLO THOMAS</span>
+            </div>
+        </div>
+        <div class="stats-column">
+            <div class="stat-item empty-stat">Nessuna ammonizione</div>
+        </div>
+    </div>
+    
+    <div class="section-title">ESPULSIONI</div>
+    <div class="stats-container">
+        <div class="stats-column">
+            <div class="stat-item empty-stat">Nessuna espulsione</div>
+        </div>
+        <div class="stats-column">
+            <div class="stat-item empty-stat">Nessuna espulsione</div>
+        </div>
+    </div>
+</div>
+
+<!-- Partita 7 -->
+<div class="match-container">
+    <div class="match-header">
+        <div class="match-date">Lunedì 08/07/2024 - Ore 20.30</div>
+        <h2 class="match-title">I POLIPI vs CLUB ATLETICO TUCUMÀN <br><strong class="match_result">2 : 3</strong></h2>
+    </div>
+    
+    <div class="teams-container">
+        <div class="team">
+            <div class="team-name">I POLIPI</div>
+            <ul class="players-list">
+                <li class="player"><span class="player-number">1</span> BENETAZZO MARCO</li>
+                <li class="player"><span class="player-number">2</span> AZZOLIN DENIS</li>
+                <li class="player"><span class="player-number">3</span> TONIATTI LUCA</li>
+                <li class="player"><span class="player-number">4</span> GRIGOLO OMAR</li>
+                <li class="player"><span class="player-number">5</span> MARIN GIANLUCA</li>
+                <li class="player"><span class="player-number">6</span> PANIZZOLO LUCA</li>
+                <li class="player"><span class="player-number">7</span> BALLOTTA SIMONE</li>
+                <li class="player"><span class="player-number">8</span> MANIERO DANIELE</li>
+                <li class="player"><span class="player-number">9</span> CASOTTO GIOVANNI</li>
+                <li class="player"><span class="player-number">10</span> SANAVIA GIACOMO</li>
+                <li class="player"><span class="player-number">11</span> SAVOLDO NICOLÒ</li>
+                <li class="player"><span class="player-number">-</span> PEZZOLO LUIGI</li>
+                <li class="player"><span class="player-number">13</span> MICHELON LUCA</li>
+                <li class="player"><span class="player-number">14</span> TONELLO RICCARDO</li>
+                <li class="player"><span class="player-number">15</span> ZOPPELLO LUCA</li>
+                <li class="player"><span class="player-number">12</span> DONOLATO GIANMARIA</li>
+            </ul>
+        </div>
+        
+        <div class="team">
+            <div class="team-name">CLUB ATLETICO TUCUMÀN</div>
+            <ul class="players-list">
+                <li class="player"><span class="player-number">1</span> CHINELLO DANIELE</li>
+                <li class="player"><span class="player-number">5</span> MASIERO ALESSANDRO</li>
+                <li class="player"><span class="player-number">6</span> FASOLATO GIANLUCA</li>
+                <li class="player"><span class="player-number">7</span> VOLTAN JACOPO</li>
+                <li class="player"><span class="player-number">9</span> TAMIAZZO DAVIDE</li>
+                <li class="player"><span class="player-number">10</span> TAMIAZZO JAROD MICHEL</li>
+                <li class="player"><span class="player-number">13</span> ALBIERO ANDREA</li>
+                <li class="player"><span class="player-number">20</span> PANIZZOLO MATTEO</li>
+                <li class="player"><span class="player-number">21</span> ZAMBERLAN DANIELE</li>
+                <li class="player"><span class="player-number">22</span> MUNARI ALESSANDRO</li>
+                <li class="player"><span class="player-number">23</span> GHIRALDO DIEGO</li>
+                <li class="player"><span class="player-number">99</span> CARELLI ANTONIO</li>
+                <li class="player"><span class="player-number">0</span> CHINELLO SAMUELE</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="section-title">MARCATORI</div>
+    <div class="stats-container">
+        <div class="stats-column">
+            <div class="stat-item">
+                <span class="stat-value">14 TONELLO RICCARDO</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value">AUTORETE</span>
+            </div>
+        </div>
+        <div class="stats-column">
+            <div class="stat-item">
+                <span class="stat-value">0 CHINELLO SAMUELE</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value">0 CHINELLO SAMUELE</span>
+            </div>
+<div class="stat-item">
+                <span class="stat-value">0 CHINELLO SAMUELE</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="section-title">AMMONIZIONI</div>
+    <div class="stats-container">
+        <div class="stats-column">
+            <div class="stat-item">
+                <span class="stat-value">13 MICHELON LUCA</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value">4 GRIGOLO OMAR</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value">3 TONIATTI LUCA</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value">8 MANIERO DANIELE</span>
+            </div>
+        </div>
+        <div class="stats-column">
+            <div class="stat-item empty-stat">Nessuna ammonizione</div>
+        </div>
+    </div>
+    
+    <div class="section-title">ESPULSIONI</div>
+    <div class="stats-container">
+        <div class="stats-column">
+            <div class="stat-item empty-stat">Nessuna espulsione</div>
+        </div>
+        <div class="stats-column">
+            <div class="stat-item">
+                <span class="stat-value">5 MASIERO ALESSANDRO</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Partita 8 -->
+<div class="match-container">
+    <div class="match-header">
+        <div class="match-date">Lunedì 08/07/2024 - Ore 21.45</div>
+        <h2 class="match-title">SAPOVILLAINS vs STORTENHAM <br><strong class="match_result">2 : 0</strong></h2>
+    </div>
+    
+    <div class="teams-container">
+        <div class="team">
+            <div class="team-name">SAPOVILLAINS</div>
+            <ul class="players-list">
+                <li class="player"><span class="player-number">1</span> RUVOLETTO ANDREA</li>
+                <li class="player"><span class="player-number">2</span> MARTELLATO CARLO</li>
+                <li class="player"><span class="player-number">3</span> ZANNI ALESSANDRO</li>
+                <li class="player"><span class="player-number">4</span> DUGO ALBERTO</li>
+                <li class="player"><span class="player-number">5</span> BOSCARO TOMMASO</li>
+                <li class="player"><span class="player-number">6</span> STEFANI LORENZO</li>
+                <li class="player"><span class="player-number">7</span> DONA' ALBERTO</li>
+                <li class="player"><span class="player-number">8</span> BAZZOLO FRANCESCO</li>
+                <li class="player"><span class="player-number">10</span> ZAMBON GIOVANNI</li>
+                <li class="player"><span class="player-number">11</span> CAPELLARI MARCO</li>
+                <li class="player"><span class="player-number">13</span> CHIOCCA ANDREA</li>
+                <li class="player"><span class="player-number">21</span> CONTIN RICCARDO</li>
+                <li class="player"><span class="player-number">23</span> ANTONELLO ELIA</li>
+                <li class="player"><span class="player-number">27</span> ZATTA ALESSANDRO</li>
+            </ul>
+        </div>
+        
+        <div class="team">
+            <div class="team-name">STORTENHAM</div>
+            <ul class="players-list">
+                <li class="player"><span class="player-number">1</span> LANDO MATTEO</li>
+                <li class="player"><span class="player-number">2</span> SEMENZATO IACOPO</li>
+                <li class="player"><span class="player-number">4</span> CAVALLIN MATTIA</li>
+                <li class="player"><span class="player-number">6</span> LA MATTINA CHRISTIAN</li>
+                <li class="player"><span class="player-number">7</span> GHIRALDO FILIPPO</li>
+                <li class="player"><span class="player-number">8</span> CACCO FILIPPO</li>
+                <li class="player"><span class="player-number">9</span> BACCO MATTEO</li>
+                <li class="player"><span class="player-number">10</span> TRABUIO MARCO</li>
+                <li class="player"><span class="player-number">11</span> BOSCHETTO ENRICO</li>
+                <li class="player"><span class="player-number">13</span> SMAGGIATO SIMONE</li>
+                <li class="player"><span class="player-number">14</span> CONVENTO NICOLA</li>
+                <li class="player"><span class="player-number">17</span> TESTA MARCO</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="section-title">MARCATORI</div>
+    <div class="stats-container">
+        <div class="stats-column">
+            <div class="stat-item">
+                <span class="stat-value">21 CONTIN RICCARDO</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value">8 BAZZOLO FRANCESCO</span>
+            </div>
+        </div>
+        <div class="stats-column">
+            <div class="stat-item empty-stat">Nessun marcatore</div>
+        </div>
+    </div>
+    
+    <div class="section-title">AMMONIZIONI</div>
+    <div class="stats-container">
+        <div class="stats-column">
+            <div class="stat-item empty-stat">Nessuna ammonizione</div>
+        </div>
+        <div class="stats-column">
+            <div class="stat-item empty-stat">Nessuna ammonizione</div>
+        </div>
+    </div>
+    
+    <div class="section-title">ESPULSIONI</div>
+    <div class="stats-container">
+        <div class="stats-column">
+            <div class="stat-item empty-stat">Nessuna espulsione</div>
+        </div>
+        <div class="stats-column">
+            <div class="stat-item empty-stat">Nessuna espulsione</div>
+        </div>
+    </div>
+</div>
+
+<!-- Partita 9 -->
+<div class="match-container">
+    <div class="match-header">
+        <div class="match-date">Mercoledì 10/07/2024 - Ore 20.30</div>
+        <h2 class="match-title">WPJ vs CLUB ATLETICO TUCUMÀN <br><strong class="match_result">3 : 0</strong></h2>
+    </div>
+    
+    <div class="teams-container">
+        <div class="team">
+            <div class="team-name">WPJ</div>
+            <ul class="players-list">
+                <li class="player"><span class="player-number">2</span> CHIARELLO FILIPPO</li>
+                <li class="player"><span class="player-number">4</span> SANTI CIRO</li>
+                <li class="player"><span class="player-number">5</span> MICHIELOTTO FILIPPO</li>
+                <li class="player"><span class="player-number">6</span> FE' LEONARDO</li>
+                <li class="player"><span class="player-number">7</span> PITTARO FRANCESCO</li>
+                <li class="player"><span class="player-number">8</span> MARTINI FEDERICO</li>
+                <li class="player"><span class="player-number">9</span> TOSO FILIPPO</li>
+                <li class="player"><span class="player-number">10</span> SANTI JOSÈ</li>
+                <li class="player"><span class="player-number">11</span> MESCALCHIN GIANLUCA</li>
+                <li class="player"><span class="player-number">13</span> BALAS SEBASTIAN</li>
+                <li class="player"><span class="player-number">14</span> ZAMBON DANIEL</li>
+                <li class="player"><span class="player-number">16</span> STIVANELLO MARCO</li>
+                <li class="player"><span class="player-number">17</span> GUZZO FRANCESCO</li>
+            </ul>
+        </div>
+        
+        <div class="team">
+            <div class="team-name">CLUB ATLETICO TUCUMÀN</div>
+            <ul class="players-list">
+                <li class="player"><span class="player-number">1</span> CHINELLO DANIELE</li>
+                <li class="player"><span class="player-number">5</span> MASIERO ALESSANDRO</li>
+                <li class="player"><span class="player-number">6</span> FASOLATO GIANLUCA</li>
+                <li class="player"><span class="player-number">7</span> VOLTAN JACOPO</li>
+                <li class="player"><span class="player-number">9</span> TAMIAZZO DAVIDE</li>
+                <li class="player"><span class="player-number">10</span> TAMIAZZO JAROD MICHEL</li>
+                <li class="player"><span class="player-number">13</span> ALBIERO ANDREA</li>
+                <li class="player"><span class="player-number">20</span> PANIZZOLO MATTEO</li>
+                <li class="player"><span class="player-number">21</span> ZAMBERLAN DANIELE</li>
+                <li class="player"><span class="player-number">22</span> MUNARI ALESSANDRO</li>
+                <li class="player"><span class="player-number">23</span> GHIRALDO DIEGO</li>
+                <li class="player"><span class="player-number">99</span> CARELLI ANTONIO</li>
+                <li class="player"><span class="player-number">0</span> CHINELLO SAMUELE</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="section-title">MARCATORI</div>
+    <div class="stats-container">
+        <div class="stats-column">
+            <div class="stat-item">
+                <span class="stat-value">17 GUZZO FRANCESCO</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value">17 GUZZO FRANCESCO</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value">9 TOSO FILIPPO</span>
+            </div>
+        </div>
+        <div class="stats-column">
+            <div class="stat-item empty-stat">Nessun marcatore</div>
+        </div>
+    </div>
+    
+    <div class="section-title">AMMONIZIONI</div>
+    <div class="stats-container">
+        <div class="stats-column">
+            <div class="stat-item">
+                <span class="stat-value">11 MESCALCHIN GIANLUCA</span>
+            </div>
+        </div>
+        <div class="stats-column">
+            <div class="stat-item">
+                <span class="stat-value">23 GHIRALDO DIEGO</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value">13 ALBIERO ANDREA</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value">20 PANIZZOLO MATTEO</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="section-title">ESPULSIONI</div>
+    <div class="stats-container">
+        <div class="stats-column">
+            <div class="stat-item empty-stat">Nessuna espulsione</div>
+        </div>
+        <div class="stats-column">
+            <div class="stat-item empty-stat">Nessuna espulsione</div>
+        </div>
+    </div>
+</div>
+
+<!-- Partita 10 -->
+<div class="match-container">
+    <div class="match-header">
+        <div class="match-date">Mercoledì 10/07/2024 - Ore 21.45</div>
+        <h2 class="match-title">ALMA vs STORTENHAM <br><strong class="match_result">5 : 6</strong></h2>
+    </div>
+    
+    <div class="teams-container">
+        <div class="team">
+            <div class="team-name">ALMA</div>
+            <ul class="players-list">
+                <li class="player"><span class="player-number">1</span> UBERTI NICOLÒ</li>
+                <li class="player"><span class="player-number">2</span> BIASIOLO ANDREA</li>
+                <li class="player"><span class="player-number">3</span> BATTAN FEDERICO</li>
+                <li class="player"><span class="player-number">4</span> NICOLAU CRISTIAN</li>
+                <li class="player"><span class="player-number">5</span> TOMASIN NICOLÒ</li>
+                <li class="player"><span class="player-number">6</span> LEVANTESI FABIO</li>
+                <li class="player"><span class="player-number">7</span> BUSO ANDREA</li>
+                <li class="player"><span class="player-number">8</span> CAPPELLATO GIACOMO</li>
+                <li class="player"><span class="player-number">9</span> QUKU ROBERTO</li>
+                <li class="player"><span class="player-number">10</span> VOLPATO REJ</li>
+                <li class="player"><span class="player-number">11</span> PANIZZOLO FEDERICO</li>
+                <li class="player"><span class="player-number">13</span> GIACOMAZZO MATTEO</li>
+                <li class="player"><span class="player-number">15</span> RAI BOUBKER</li>
+                <li class="player"><span class="player-number">17</span> MANFRIN MATTIA</li>
+                <li class="player"><span class="player-number">90</span> MARTIRE WALTER</li>
+            </ul>
+        </div>
+        
+        <div class="team">
+            <div class="team-name">STORTENHAM</div>
+            <ul class="players-list">
+                <li class="player"><span class="player-number">1</span> LANDO MATTEO</li>
+                <li class="player"><span class="player-number">2</span> SEMENZATO IACOPO</li>
+                <li class="player"><span class="player-number">4</span> CAVALLIN MATTIA</li>
+                <li class="player"><span class="player-number">6</span> LA MATTINA CHRISTIAN</li>
+                <li class="player"><span class="player-number">7</span> GHIRALDO FILIPPO</li>
+                <li class="player"><span class="player-number">8</span> CACCO FILIPPO</li>
+                <li class="player"><span class="player-number">9</span> BACCO MATTEO</li>
+                <li class="player"><span class="player-number">10</span> TRABUIO MARCO</li>
+                <li class="player"><span class="player-number">11</span> BOSCHETTO ENRICO</li>
+                <li class="player"><span class="player-number">13</span> SMAGGIATO SIMONE</li>
+                <li class="player"><span class="player-number">14</span> CONVENTO NICOLA</li>
+                <li class="player"><span class="player-number">17</span> TESTA MARCO</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="section-title">MARCATORI</div>
+    <div class="stats-container">
+        <div class="stats-column">
+            <div class="stat-item">
+                <span class="stat-value">10 VOLPATO REJ</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value">4 NICOLAU CRISTIAN</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value">10 VOLPATO REJ</span>
+            </div>
+<div class="stat-item">
+                <span class="stat-value">9 BIASOTTO GIANNO</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value">4 NICOLAU CRISTIAN</span>
+            </div>
+        </div>
+        <div class="stats-column">
+            <div class="stat-item">
+                <span class="stat-value">8 CACCO FILIPPO</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value">9 BACCO MATTEO</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value">14 CONVENTO NICOLA</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value">8 CACCO FILIPPO</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value">7 GHIRALDO FILIPPO</span>
+            </div>
+<div class="stat-item">
+                <span class="stat-value">8 CACCO FILIPPO</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="section-title">AMMONIZIONI</div>
+    <div class="stats-container">
+        <div class="stats-column">
+            <div class="stat-item empty-stat">Nessuna ammonizione</div>
+        </div>
+        <div class="stats-column">
+            <div class="stat-item empty-stat">Nessuna ammonizione</div>
+        </div>
+    </div>
+    
+    <div class="section-title">ESPULSIONI</div>
+    <div class="stats-container">
+        <div class="stats-column">
+            <div class="stat-item empty-stat">Nessuna espulsione</div>
+        </div>
+        <div class="stats-column">
+            <div class="stat-item empty-stat">Nessuna espulsione</div>
+        </div>
+    </div>
+</div>
+
+<!-- Partita 11 -->
+<div class="match-container">
+    <div class="match-header">
+        <div class="match-date">Venerdì 12/07/2024 - Ore 20.30</div>
+        <h2 class="match-title">I POLIPI vs FC A.P. <br><strong class="match_result">2 : 6</strong></h2>
+    </div>
+    
+    <div class="teams-container">
+        <div class="team">
+            <div class="team-name">I POLIPI</div>
+            <ul class="players-list">
+                <li class="player"><span class="player-number">1</span> BENETAZZO MARCO</li>
+                <li class="player"><span class="player-number">2</span> AZZOLIN DEVIS</li>
+                <li class="player"><span class="player-number">3</span> TONIATTI LUCA</li>
+                <li class="player"><span class="player-number">4</span> GRIGOLO OMAR</li>
+                <li class="player"><span class="player-number">5</span> MARIN GIANLUCA</li>
+                <li class="player"><span class="player-number">6</span> PANIZZOLO LUCA</li>
+                <li class="player"><span class="player-number">7</span> BALLOTTA SIMONE</li>
+                <li class="player"><span class="player-number">8</span> MANIERO DANIELE</li>
+                <li class="player"><span class="player-number">9</span> CASOTTO GIOVANNI</li>
+                <li class="player"><span class="player-number">10</span> SANAVIA GIACOMO</li>
+                <li class="player"><span class="player-number">11</span> SAVOLDO NICOLO’</li>
+                <li class="player"><span class="player-number">12</span> PEZZOLO LUIGI</li>
+                <li class="player"><span class="player-number">13</span> MICHELON LUCA</li>
+                <li class="player"><span class="player-number">14</span> TONELLO RICCARDO</li>
+                <li class="player"><span class="player-number">15</span> ZOPPELLO LUCA</li>
+                <li class="player"><span class="player-number">-</span> DONOLATO GIANMARIA</li>
+            </ul>
+        </div>
+        
+        <div class="team">
+            <div class="team-name">FC A.P.</div>
+            <ul class="players-list">
+                <li class="player"><span class="player-number">4</span> DI BARTOLOMEO TOMMASO</li>
+                <li class="player"><span class="player-number">5</span> DE ROSSI MATTIA</li>
+                <li class="player"><span class="player-number">6</span> ROSSI CHRISTIAN</li>
+                <li class="player"><span class="player-number">7</span> PELLEGRINO MATTIA</li>
+                <li class="player"><span class="player-number">10</span> BOLDRIN MATTEO</li>
+                <li class="player"><span class="player-number">15</span> BELLO ALESSANDRO</li>
+                <li class="player"><span class="player-number">19</span> HAMZA SERGIU</li>
+                <li class="player"><span class="player-number">23</span> FIORIN MATTEO</li>
+                <li class="player"><span class="player-number">50</span> NARDO NICOLA</li>
+                <li class="player"><span class="player-number">69</span> BALIELLO THOMAS</li>
+                <li class="player"><span class="player-number">77</span> PACCAGNELLA LUCA</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="section-title">MARCATORI</div>
+    <div class="stats-container">
+        <div class="stats-column">
+            <div class="stat-item"><span class="stat-value">8 MANIERO DANIELE</span></div>
+            <div class="stat-item"><span class="stat-value">14 TONELLO RICCARDO</span></div>
+        </div>
+        <div class="stats-column">
+            <div class="stat-item"><span class="stat-value">AUTORETE</span></div>
+            <div class="stat-item"><span class="stat-value">69 BALIELLO THOMAS</span></div>
+            <div class="stat-item"><span class="stat-value">AUTORETE</span></div>
+            <div class="stat-item"><span class="stat-value">7 PELLEGRINO MATTIA (autogol)</span></div>
+            <div class="stat-item"><span class="stat-value">77 PACCAGNELLA LUCA (autogol)</span></div>
+            <div class="stat-item"><span class="stat-value">7 PELLEGRINO MATTIA (autogol)</span></div>
+        </div>
+    </div>
+
+    <div class="section-title">AMMONIZIONI</div>
+    <div class="stats-container">
+        <div class="stats-column">
+            <div class="stat-item">3 TONIATTI LUCA</div>
+        </div>
+        <div class="stats-column">
+            <div class="stat-item empty-stat">Nessuna ammonizione</div>
+        </div>
+    </div>
+    
+    <div class="section-title">ESPULSIONI</div>
+    <div class="stats-container">
+        <div class="stats-column">
+            <div class="stat-item empty-stat">Nessuna espulsione</div>
+        </div>
+        <div class="stats-column">
+            <div class="stat-item empty-stat">Nessuna espulsione</div>
+        </div>
+    </div>
+</div>
+
+<!-- Partita 12 -->
+<div class="match-container">
+    <div class="match-header">
+        <div class="match-date">Venerdì 12/07/2024 - Ore 21.45</div>
+        <h2 class="match-title">I PERDONÀTI vs SAPOVILLAINS <br><strong class="match_result">4 : 1</strong></h2>
+    </div>
+    
+    <div class="teams-container">
+        <div class="team">
+            <div class="team-name">I PERDONÀTI</div>
+            <ul class="players-list">
+                <li class="player"><span class="player-number">1</span> MANCIN LORENZO</li>
+                <li class="player"><span class="player-number">2</span> DEGAN GIORGIO</li>
+                <li class="player"><span class="player-number">3</span> POLATO KEVIN</li>
+                <li class="player"><span class="player-number">4</span> VOLPATO RICCARDO</li>
+                <li class="player"><span class="player-number">5</span> TOIGO NICOLA</li>
+                <li class="player"><span class="player-number">6</span> GREGGIO CRISTIAN</li>
+                <li class="player"><span class="player-number">7</span> CALABRESI ALESSANDRO</li>
+                <li class="player"><span class="player-number">8</span> TRABUIO NICOLA</li>
+                <li class="player"><span class="player-number">9</span> BRUSCAGLIN MATTEO</li>
+                <li class="player"><span class="player-number">10</span> KIFOUCHE YACOUB</li>
+                <li class="player"><span class="player-number">11</span> CAZZARO NICCOLO'</li>
+                <li class="player"><span class="player-number">13</span> FRISON NICOLA</li>
+                <li class="player"><span class="player-number">17</span> BARATO LORENZO</li>
+                <li class="player"><span class="player-number">27</span> ZATTA ALESSANDRO</li>
+            </ul>
+        </div>
+        
+        <div class="team">
+            <div class="team-name">SAPOVILLAINS</div>
+            <ul class="players-list">
+                <li class="player"><span class="player-number">1</span> RUVOLETTO ANDREA</li>
+                <li class="player"><span class="player-number">2</span> MARTELLATO CARLO</li>
+                <li class="player"><span class="player-number">3</span> ZANNI ALESSANDRO</li>
+                <li class="player"><span class="player-number">4</span> DUGO ALBERTO</li>
+                <li class="player"><span class="player-number">5</span> BOSCARO TOMMASO</li>
+                <li class="player"><span class="player-number">6</span> STEFANI LORENZO</li>
+                <li class="player"><span class="player-number">7</span> DONA' ALBERTO</li>
+                <li class="player"><span class="player-number">8</span> BAZZOLO FRANCESCO</li>
+                <li class="player"><span class="player-number">10</span> ZAMBON GIOVANNI</li>
+                <li class="player"><span class="player-number">11</span> CAPELLARI MARCO</li>
+                <li class="player"><span class="player-number">13</span> CHIOCCA ANDREA</li>
+                <li class="player"><span class="player-number">21</span> CONTIN RICCARDO</li>
+                <li class="player"><span class="player-number">23</span> ANTONELLO ELIA</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="section-title">MARCATORI</div>
+    <div class="stats-container">
+        <div class="stats-column">
+            <div class="stat-item"><span class="stat-value">7 CALABRESI ALESSANDRO</span></div>
+            <div class="stat-item"><span class="stat-value">7 CALABRESI ALESSANDRO</span></div>
+            <div class="stat-item"><span class="stat-value">8 TRABUIO NICOLA</span></div>
+            <div class="stat-item"><span class="stat-value">4 VOLPATO RICCARDO</span></div>
+        </div>
+        <div class="stats-column">
+            <div class="stat-item"><span class="stat-value">23 ANTONELLO ELIA</span></div>
+        </div>
+    </div>
+    
+    <div class="section-title">AMMONIZIONI</div>
+    <div class="stats-container">
+        <div class="stats-column"><div class="stat-item empty-stat">Nessuna ammonizione</div></div>
+        <div class="stats-column"><div class="stat-item empty-stat">Nessuna ammonizione</div></div>
+    </div>
+
+    <div class="section-title">ESPULSIONI</div>
+    <div class="stats-container">
+        <div class="stats-column"><div class="stat-item empty-stat">Nessuna espulsione</div></div>
+        <div class="stats-column"><div class="stat-item empty-stat">Nessuna espulsione</div></div>
+    </div>
+</div>
+
+<!-- Partita 13  - semifinale -->
+<div class="match-container">
+    <div class="match-header">
+        <div class="match-date">Lunedì 15/07/2024 - Ore 20.30</div>
+        <h2 class="match-title">I PERDONÀTI vs WPJ <br><strong class="match_result">3 : 1</strong></h2>
+    </div>
+
+    <div class="teams-container">
+        <div class="team">
+            <div class="team-name">I PERDONÀTI</div>
+            <ul class="players-list">
+                <li class="player"><span class="player-number">1</span> MANCIN LORENZO</li>
+                <li class="player"><span class="player-number">2</span> DEGAN GIORGIO</li>
+                <li class="player"><span class="player-number">3</span> POLATO KEVIN</li>
+                <li class="player"><span class="player-number">4</span> VOLPATO RICCARDO</li>
+                <li class="player"><span class="player-number">5</span> TOIGO NICOLA</li>
+                <li class="player"><span class="player-number">6</span> GREGGIO CRISTIAN</li>
+                <li class="player"><span class="player-number">7</span> CALABRESI ALESSANDRO</li>
+                <li class="player"><span class="player-number">8</span> TRABUIO NICOLA</li>
+                <li class="player"><span class="player-number">9</span> BRUSCAGLIN MATTEO</li>
+                <li class="player"><span class="player-number">10</span> KIFOUCHE YACOUB</li>
+                <li class="player"><span class="player-number">11</span> CAZZARO NICCOLO'</li>
+                <li class="player"><span class="player-number">13</span> FRISON NICOLA</li>
+                <li class="player"><span class="player-number">17</span> BARATO LORENZO</li>
+            </ul>
+        </div>
+
+        <div class="team">
+            <div class="team-name">WPJ</div>
+            <ul class="players-list">
+                <li class="player"><span class="player-number">2</span> CHIARELLO FILIPPO</li>
+                <li class="player"><span class="player-number">4</span> SANTI CIRO</li>
+                <li class="player"><span class="player-number">5</span> MICHIELOTTO FILIPPO</li>
+                <li class="player"><span class="player-number">6</span> FE' LEONARDO</li>
+                <li class="player"><span class="player-number">7</span> PITTARO FRANCESCO</li>
+                <li class="player"><span class="player-number">8</span> MARTINI FEDERICO</li>
+                <li class="player"><span class="player-number">9</span> TOSO FILIPPO</li>
+                <li class="player"><span class="player-number">10</span> SANTI JOSE'</li>
+                <li class="player"><span class="player-number">11</span> MESCALCHIN GIANLUCA</li>
+                <li class="player"><span class="player-number">13</span> BALAS SEBASTIAN</li>
+                <li class="player"><span class="player-number">14</span> ZAMBON DANIEL</li>
+                <li class="player"><span class="player-number">16</span> STIVANELLO MARCO</li>
+                <li class="player"><span class="player-number">17</span> GUZZO FRANCESCO</li>
+            </ul>
+        </div>
+    </div>
+
+<div class="section-title">MARCATORI</div>
+    <div class="stats-container">
+        <div class="stats-column">
+            <div class="stat-item"><span class="stat-value">2 DEGAN GIORGIO</span></div>
+            <div class="stat-item"><span class="stat-value">8 TRABUIO NICOLA</span></div>
+            <div class="stat-item"><span class="stat-value">9 BRUSCAGLIN MATTEO</span></div> 
+        </div>
+        <div class="stats-column">
+            <div class="stat-item"><span class="stat-value">AUTOGOL</span></div>
+        </div>
+    </div>
+
+
+    <div class="section-title">AMMONIZIONI</div>
+    <div class="stats-container">
+        <div class="stats-column"><div class="stat-item empty-stat">Nessuna ammonizione</div></div>
+        <div class="stats-column"><div class="stat-item empty-stat">Nessuna ammonizione</div></div>
+    </div>
+
+    <div class="section-title">ESPULSIONI</div>
+    <div class="stats-container">
+        <div class="stats-column"><div class="stat-item empty-stat">Nessuna espulsione</div></div>
+        <div class="stats-column"><div class="stat-item empty-stat">Nessuna espulsione</div></div>
+    </div>
+</div>
+
+<!-- Partita 14 - semifinale -->
+<div class="match-container">
+    <div class="match-header">
+        <div class="match-date">Lunedì 15/07/2024 - Ore 21.45</div>
+        <h2 class="match-title">FC A.P. vs SAPOVILLAINS <br><strong class="match_result">1 : 0</strong></h2>
+    </div>
+
+    <div class="teams-container">
+        <div class="team">
+            <div class="team-name">FC A.P.</div>
+            <ul class="players-list">
+                <li class="player"><span class="player-number">4</span> DI BARTOLOMEO TOMMASO</li>
+                <li class="player"><span class="player-number">5</span> DE ROSSI MATTIA</li>
+                <li class="player"><span class="player-number">6</span> ROSSI CHRISTIAN</li>
+                <li class="player"><span class="player-number">7</span> PELLEGRINO MATTIA</li>
+                <li class="player"><span class="player-number">10</span> BOLDRIN MATTEO</li>
+                <li class="player"><span class="player-number">15</span> BELLO ALESSANDRO</li>
+                <li class="player"><span class="player-number">19</span> HAMZA SERGIU</li>
+                <li class="player"><span class="player-number">23</span> FIORIN MATTEO</li>
+                <li class="player"><span class="player-number">50</span> NARDO NICOLA</li>
+                <li class="player"><span class="player-number">69</span> BALIELLO THOMAS</li>
+                <li class="player"><span class="player-number">77</span> PACCAGNELLA LUCA</li>
+            </ul>
+        </div>
+
+        <div class="team">
+            <div class="team-name">SAPOVILLAINS</div>
+            <ul class="players-list">
+                <li class="player"><span class="player-number">1</span> RUVOLETTO ANDREA</li>
+                <li class="player"><span class="player-number">2</span> MARTELLATO CARLO</li>
+                <li class="player"><span class="player-number">3</span> ZANNI ALESSANDRO</li>
+                <li class="player"><span class="player-number">4</span> DUGO ALBERTO</li>
+                <li class="player"><span class="player-number">5</span> BOSCARO TOMMASO</li>
+                <li class="player"><span class="player-number">6</span> STEFANI LORENZO</li>
+                <li class="player"><span class="player-number">7</span> DONA' ALBERTO</li>
+                <li class="player"><span class="player-number">8</span> BAZZOLO FRANCESCO</li>
+                <li class="player"><span class="player-number">10</span> ZAMBON GIOVANNI</li>
+                <li class="player"><span class="player-number">11</span> CAPELLARI MARCO</li>
+                <li class="player"><span class="player-number">13</span> CHIOCCA ANDREA</li>
+                <li class="player"><span class="player-number">21</span> CONTIN RICCARDO</li>
+                <li class="player"><span class="player-number">23</span> ANTONELLO ELIA</li>
+                <li class="player"><span class="player-number">27</span> ZATTA ALESSANDRO</li>
+            </ul>
+        </div>
+    </div>
+
+<div class="section-title">MARCATORI</div>
+    <div class="stats-container">
+        <div class="stats-column">
+            <div class="stat-item"><span class="stat-value">69 BALIELLO THOMAS</span></div> 
+        </div>
+        <div class="stats-column">
+            <div class="stat-item"><span class="stat-value"></span></div>
+        </div>
+    </div>
+
+    <div class="section-title">AMMONIZIONI</div>
+    <div class="stats-container">
+        <div class="stats-column"><div class="stat-item empty-stat">Nessuna ammonizione</div></div>
+        <div class="stats-column"><div class="stat-item empty-stat">Nessuna ammonizione</div></div>
+    </div>
+
+    <div class="section-title">ESPULSIONI</div>
+    <div class="stats-container">
+        <div class="stats-column"><div class="stat-item empty-stat">Nessuna espulsione</div></div>
+        <div class="stats-column"><div class="stat-item empty-stat">Nessuna espulsione</div></div>
+    </div>
+</div>
+
+<!-- Partita 15 - finale  -->
+<div class="match-container">
+    <div class="match-header">
+        <div class="match-date">Lunedì 19/07/2024 - Ore 20.30</div>
+        <h2 class="match-title">WPJ vs SAPOVILLAINS <br><strong class="match_result">5 : 2</strong></h2>
+    </div>
+
+    <div class="teams-container">
+        <div class="team">
+            <div class="team-name">WPJ</div>
+            <ul class="players-list">
+                <li class="player"><span class="player-number">2</span> CHIARELLO FILIPPO</li>
+                <li class="player"><span class="player-number">4</span> SANTI CIRO</li>
+                <li class="player"><span class="player-number">5</span> MICHIELOTTO FILIPPO</li>
+                <li class="player"><span class="player-number">6</span> FE' LEONARDO</li>
+                <li class="player"><span class="player-number">7</span> PITTARO FRANCESCO</li>
+                <li class="player"><span class="player-number">8</span> MARTINI FEDERICO</li>
+                <li class="player"><span class="player-number">9</span> TOSO FILIPPO</li>
+                <li class="player"><span class="player-number">10</span> SANTI JOSE'</li>
+                <li class="player"><span class="player-number">11</span> MESCALCHIN GIANLUCA</li>
+                <li class="player"><span class="player-number">13</span> BALAS SEBASTIAN</li>
+                <li class="player"><span class="player-number">14</span> ZAMBON DANIEL</li>
+                <li class="player"><span class="player-number">16</span> STIVANELLO MARCO</li>
+                <li class="player"><span class="player-number">17</span> GUZZO FRANCESCO</li>
+	 <li class="player"><span class="player-number">18</span> ANGI RICCARDO</li>
+            </ul>
+        </div>
+
+        <div class="team">
+            <div class="team-name">SAPOVILLAINS</div>
+            <ul class="players-list">
+                <li class="player"><span class="player-number">1</span> RUVOLETTO ANDREA</li>
+                <li class="player"><span class="player-number">2</span> MARTELLATO CARLO</li>
+                <li class="player"><span class="player-number">3</span> ZANNI ALESSANDRO</li>
+                <li class="player"><span class="player-number">4</span> DUGO ALBERTO</li>
+                <li class="player"><span class="player-number">5</span> BOSCARO TOMMASO</li>
+                <li class="player"><span class="player-number">6</span> STEFANI LORENZO</li>
+                <li class="player"><span class="player-number">7</span> DONA' ALBERTO</li>
+                <li class="player"><span class="player-number">8</span> BAZZOLO FRANCESCO</li>
+                <li class="player"><span class="player-number">10</span> ZAMBON GIOVANNI</li>
+                <li class="player"><span class="player-number">11</span> CAPELLARI MARCO</li>
+                <li class="player"><span class="player-number">13</span> CHIOCCA ANDREA</li>
+                <li class="player"><span class="player-number">21</span> CONTIN RICCARDO</li>
+                <li class="player"><span class="player-number">23</span> ANTONELLO ELIA</li>
+                <li class="player"><span class="player-number">27</span> ZATTA ALESSANDRO</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section-title">MARCATORI</div>
+    <div class="stats-container">
+        <div class="stats-column">
+            <div class="stat-item"><span class="stat-value">4 SANTI CIRO</span></div>
+            <div class="stat-item"><span class="stat-value">4 SANTI CIRO</span></div>
+            <div class="stat-item"><span class="stat-value">14 ZAMBON DANIEL</span></div> 
+            <div class="stat-item"><span class="stat-value">6 FE' LEONARDO</span></div> 
+           <div class="stat-item"><span class="stat-value">18 ANGI RICCARDO</span></div> 
+        </div>
+        <div class="stats-column">
+            <div class="stat-item"><span class="stat-value">ANTONELLO</span></div>
+<div class="stat-item"><span class="stat-value">CHIOCCA</span></div>
+        </div>
+    </div>
+
+    <div class="section-title">AMMONIZIONI</div>
+    <div class="stats-container">
+        <div class="stats-column"><div class="stat-item empty-stat">Nessuna ammonizione</div></div>
+        <div class="stats-column"><div class="stat-item empty-stat">Nessuna ammonizione</div></div>
+    </div>
+
+    <div class="section-title">ESPULSIONI</div>
+    <div class="stats-container">
+        <div class="stats-column"><div class="stat-item empty-stat">Nessuna espulsione</div></div>
+        <div class="stats-column"><div class="stat-item empty-stat">Nessuna espulsione</div></div>
+    </div>
+</div>
+
+
+<!-- Partita 16 - finale  -->
+<div class="match-container">
+    <div class="match-header">
+        <div class="match-date">Lunedì 19/07/2024 - Ore 21.45</div>
+        <h2 class="match-title">I PERDONATI vs FC AP <br><strong class="match_result">1 : 4</strong></h2>
+    </div>
+
+    <div class="teams-container">
+        <div class="team">
+            <div class="team-name">I PERDONATI</div>
+            <ul class="players-list">
+                <li class="player"><span class="player-number">1</span> MANCIN LORENZO</li>
+                <li class="player"><span class="player-number">2</span> DEGAN GIORGIO</li>
+                <li class="player"><span class="player-number">3</span> POLATO KEVIN</li>
+                <li class="player"><span class="player-number">4</span> VOLPATO RICCARDO</li>
+                <li class="player"><span class="player-number">5</span> TOIGO NICOLA</li>
+                <li class="player"><span class="player-number">6</span> GREGGIO CRISTIAN</li>
+                <li class="player"><span class="player-number">7</span> CALABRESI ALESSANDRO</li>
+                <li class="player"><span class="player-number">8</span> TRABUIO NICOLA</li>
+                <li class="player"><span class="player-number">9</span> BRUSCAGLIN MATTEO</li>
+                <li class="player"><span class="player-number">10</span> KIFOUCHE YACOUB</li>
+                <li class="player"><span class="player-number">11</span> CAZZARO NICCOLO'</li>
+                <li class="player"><span class="player-number">13</span> FRISON NICOLA</li>
+                <li class="player"><span class="player-number">17</span> BARATO LORENZO</li>
+            </ul>
+        </div>
+
+        <div class="team">
+            <div class="team-name">FC AP</div>
+            <ul class="players-list">
+                <li class="player"><span class="player-number">4</span> DI BARTOLOMEO TOMMASO</li>
+                <li class="player"><span class="player-number">5</span> DE ROSSI MATTIA</li>
+                <li class="player"><span class="player-number">6</span> ROSSI CHRISTIAN</li>
+                <li class="player"><span class="player-number">7</span> PELLEGRINO MATTIA</li>
+                <li class="player"><span class="player-number">10</span> BOLDRIN MATTEO</li>
+                <li class="player"><span class="player-number">15</span> BELLO ALESSANDRO</li>
+                <li class="player"><span class="player-number">19</span> HAMZA SERGIU</li>
+                <li class="player"><span class="player-number">23</span> FIORIN MATTEO</li>
+                <li class="player"><span class="player-number">50</span> NARDO NICOLA</li>
+                <li class="player"><span class="player-number">69</span> BALIELLO THOMAS</li>
+                <li class="player"><span class="player-number">77</span> PACCAGNELLA LUCA</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section-title">MARCATORI</div>
+    <div class="stats-container">
+        <div class="stats-column">
+            <div class="stat-item"><span class="stat-value">10 KIFOUCHE YACOUB</span></div> 
+        </div>
+        <div class="stats-column">
+            <div class="stat-item"><span class="stat-value">77 PACCAGNELLA LUCA</span></div>
+<div class="stat-item"><span class="stat-value">77 PACCAGNELLA LUCA</span></div>
+<div class="stat-item"><span class="stat-value">69 BALIELLO THOMAS</span></div>
+<div class="stat-item"><span class="stat-value">7 PELLEGRINO MATTIA</span></div> 
+        </div>
+    </div>
+
+    <div class="section-title">AMMONIZIONI</div>
+    <div class="stats-container">
+        <div class="stats-column"><div class="stat-item empty-stat">Nessuna ammonizione</div></div>
+        <div class="stats-column"><div class="stat-item empty-stat">Nessuna ammonizione</div></div>
+    </div>
+
+    <div class="section-title">ESPULSIONI</div>
+    <div class="stats-container">
+        <div class="stats-column"><div class="stat-item empty-stat">Nessuna espulsione</div></div>
+        <div class="stats-column"><div class="stat-item empty-stat">Nessuna espulsione</div></div>
+    </div>
+</div>
+
+<footer>
+    <div class="footer-content">
+        <img src="mundialitoleague_logo.png" alt="Mundialito League Logo" class="footer-logo">
+        <div class="footer-copyright">Copyright © Mundialito League 2024</div>
+        <div class="footer-social">
+            <a target="_blank" href="https://www.instagram.com/mundialitoceleseo?igsh=MTg4ZzJyNnA2NTRmNA%3D%3D&utm_source=qr"><i class="fab fa-instagram instagram-icon"></i> Seguici su Instagram</a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
+
+
